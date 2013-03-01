@@ -1,0 +1,23 @@
+function text = LMK_loadTTCSProtocol(filename)
+%author Sandy Buschmann, Jan Winter TU Berlin
+%email j.winter@tu-berlin.de
+%
+% Loads protocol in .h5-format into the labSoft program.
+%
+% Input: filename = full path and filename to the protocoll (string)
+% Output: text = string with information about success or error
+
+global labSoft
+
+% Load .h5-Protocol into LabSoft application:
+errorCode = labSoft.iLoadProtokoll(filename);
+
+% Get information about success or error:
+if errorCode ~= 0
+    text = LMK_getErrorInformation;
+else
+    text = 'The protocol has been imported into LabSoft. ';
+end
+disp(text);
+
+end

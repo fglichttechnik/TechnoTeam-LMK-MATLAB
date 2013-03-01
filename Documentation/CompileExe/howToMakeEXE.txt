@@ -1,0 +1,28 @@
+How to create a standalone execution file:
+
+-type in "mcc -m LMK_gettingStarted.m" in your command window
+-note: no "addpath 'folder'" commands should be in your m-file
+
+-then an LMK_gettingStarted.exe and LMK_gettingStarted.prj is created
+
+-to add relevant matlab folders containing relevant m-files:
+	-double click on LMK_gettingStarted.prj
+	-chose "add files/directories"
+	
+    Classes
+    GUI
+    Helper
+    Preferences
+    Wrapper
+
+-When finished click on "Build" (upper right corner of the window)
+
+	-this works much easier than "mcc -m LMK_gettingStarted -a ./folder because
+	 sometimes matlab has problems to add the folder
+
+-the LMK_gettingStarted.exe is needed for your standalone application
+
+Before using on your computer without MATLAB:
+
+-you have to install the MCRInstaller is needed for running this application
+-get it from mathworks.com (free)
