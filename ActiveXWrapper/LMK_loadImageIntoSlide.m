@@ -1,6 +1,7 @@
 function LMK_loadImageIntoSlide(image_dir, slide)
-%author Sandy Buschmann, Jan Winter TU Berlin
-%email j.winter@tu-berlin.de
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 %
 % Loads luminance image into "Leuchtdichtebild" slide. Then copies current 
 % luminance image from the "Leuchtdichte" slide into "filterName" slide of 

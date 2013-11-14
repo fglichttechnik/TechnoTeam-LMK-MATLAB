@@ -1,6 +1,7 @@
 function varargout = LMK_initFig(varargin)
-%author Sandy Buschmann, Jan Winter TU Berlin
-%email j.winter@tu-berlin.de
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 %
 % LMK_INITFIG M-file for LMK_initFig.fig
 %      LMK_INITFIG, by itself, creates a new LMK_INITFIG or raises the existing

@@ -1,6 +1,7 @@
 function varargout = LMK_menue(varargin)
-%author Sandy Buschmann, Jan Winter TU Berlin
-%email j.winter@tu-berlin.de
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 %
 % LMK_MENUE M-file for LMK_menue.fig
 %      LMK_MENUE, by itself, creates a new LMK_MENUE or raises the existing

@@ -1,6 +1,7 @@
 function LMK_saveXMLData(evaluatedData, dir_name)
-%author Sandy Buschmann, Jan Winter TU Berlin
-%email j.winter@tu-berlin.de
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 %
 % Saves last measurement (.mat data) into a xml file using the functions
 % mat2struct, struct2xml and parseXML.

@@ -1,4 +1,7 @@
 function [text, file_path] = LMK_saveImage(dir_name, file_name, val_date, date_time, picformat)
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 % Save image:
     %
     % Input:

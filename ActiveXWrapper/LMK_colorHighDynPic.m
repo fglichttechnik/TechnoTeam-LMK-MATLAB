@@ -1,6 +1,7 @@
 function text = LMK_colorHighDynPic(drMinTime, drMaxTime, dFactor, iSmear, dModFrequency)
-%author Sandy Buschmann, Jan Winter TU Berlin
-%email j.winter@tu-berlin.de
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 %
 % Capture color camera images.
     % A lot of camera images with different exposure times and with 

@@ -1,5 +1,8 @@
 function [text, highDynXYZL] = LMK_LMK_discreteHighDynPic(drMinTime, drMaxTime, dFactor, ...
         iSmear, dModFrequency)
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 % This function is currently not used in the LMK_menu GUI.
 %
 %author Sandy Buschmann, Jan Winter TU Berlin

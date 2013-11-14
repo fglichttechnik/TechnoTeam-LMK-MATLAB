@@ -1,6 +1,8 @@
 function cameraImage = LMK_readPusImage(grabdir)
 %author Sandy Buschmann, Jan Winter TU Berlin
-%email j.winter@tu-berlin.de
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 %
 % Reads the data from a LMK .pus File and returns the values of the camera
 % image.

@@ -1,6 +1,7 @@
 function LMK_executeMenuPoint(execCommand)
-%author Sandy Buschmann, Jan Winter TU Berlin
-%email j.winter@tu-berlin.de
+%AUTHOR: Jan Winter, Sandy Buschmann, Robert Franke TU Berlin, FG Lichttechnik,
+%	j.winter@tu-berlin.de, www.li.tu-berlin.de
+%LICENSE: free to use at your own risk. Kudos appreciated.
 %
 % Executes any menu items of the labSoft program.You can call every menu 
 % item of the labSoft main menu, which is available at this time  
